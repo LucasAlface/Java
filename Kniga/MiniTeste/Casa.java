@@ -81,9 +81,5 @@ public class Casa {
         this.areaBruta = areaBrutaX;
         this.areaUtil = areaUtilX;
     }
-
-    public static void main(String[] args) {
-        
-    }
     
 }

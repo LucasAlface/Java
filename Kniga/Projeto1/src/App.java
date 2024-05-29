@@ -10,7 +10,7 @@ public class App {
         //Autor autor = new Autor("Lucas", "Soares");
 
         // Pedir informação ao utilizador
-        Scanner txtEntrada = new Scanner(System.in);
+        Scanner txtEntrada = new Scanner(System.in); // função para ler inserções do utilizador (cin)
         /*System.out.print("Escreva o seu nome: ");
         String nome = txtEntrada.nextLine();
         System.out.print("Qual a sua idade?: ");
@@ -21,11 +21,11 @@ public class App {
         int op = 1;
         while (op != 0) {
             System.out.println("Quer inserir livro ? (0 - Nao / 1 - Sim) Re ");
-            op = txtEntrada.nextInt();
-            txtEntrada.nextLine();
+            op = txtEntrada.nextInt(); // lê o numero inteiro enviado pelo utilizador
+            txtEntrada.nextLine(); // correção a pedir dados
         
 
-            if (op != 0) {
+            if (op == 1) {
                 System.out.println("Nome do Livro: ");
                 String nomeLivro = txtEntrada.nextLine();
 
